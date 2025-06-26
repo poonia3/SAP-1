@@ -29,6 +29,7 @@ To add instructions,
 
   
   eg:
+  
     | Address |  Data  |
     | ------- | ------ |
     | `0x0`   | `0x09` | → `LDA 0x9` (load value at `0x9` → 5)     
