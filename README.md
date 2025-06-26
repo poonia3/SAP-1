@@ -28,7 +28,7 @@ To add instructions,
 | `HLT`    | `1111`         | Halt execution (operand ignored)            |
 
   
-  eg:
+  eg: To compute 5 + 6 - 3
   
     | Address |  Data  |
     | ------- | ------ |
@@ -42,4 +42,3 @@ To add instructions,
     | `0xB`   | `0x03` | → data: 3                                 
 
 
-Modify or combine modules to explore advanced digital logic concepts
