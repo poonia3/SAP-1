@@ -2,15 +2,6 @@ Built using digital.exe
 
 Open .dig files using Digital
 
-| File Name            | Description                                                 |
-| -------------------- | ----------------------------------------------------------- |
-| `half_adder.dig`     | Basic combinational circuit for half-bit binary addition    |
-| `full_adder.dig`     | Extends half adder to handle carry-in and produce carry-out |
-| `add-sub.dig`        | Circuit that performs both binary addition and subtraction  |
-| `6_ringcounter.dig`  | A 6-bit ring counter for sequential bit cycling             |
-| `Opcode Decoder.dig` | Decodes instruction opcodes into control signals            |
-| `Controller.dig`     | Central control logic for sequencing operations             |
-
 Download and install Digital from the GitHub releases page:
 https://github.com/hneemann/Digital/releases
 
@@ -24,8 +15,10 @@ To add instructions,
 | `LDA`    | `0000`         | Load accumulator from memory at `<ADDR>`    |
 | `ADD`    | `0001`         | Add value at `<ADDR>` to accumulator        |
 | `SUB`    | `0010`         | Subtract value at `<ADDR>` from accumulator |
+| `STR`    | `1101`         | Accumulator value stored at `<ADDR>`        |
 | `OUT`    | `1110`         | Output accumulator value (operand ignored)  |
 | `HLT`    | `1111`         | Halt execution (operand ignored)            |
+
 
   
   eg: To compute 5 + 6 - 3
